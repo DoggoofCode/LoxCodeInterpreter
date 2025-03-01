@@ -1,0 +1,4 @@
+.DS_store
+LoxInterpreter/__pycache__
+.ropeproject
+__pycache__
