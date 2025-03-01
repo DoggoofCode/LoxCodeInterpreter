@@ -1,5 +1,5 @@
 import argparse as arg
-from LoxInterpreter import panic
+from LoxInterpreter import panic, Lox
 
 def main() -> None:
     parser = arg.ArgumentParser(description='Crafting a Compiler')
@@ -10,7 +10,7 @@ def main() -> None:
     if not args.filepath:
         panic("No input file provided")
 
-    raise NotImplementedError("TODO: make a compiler")
+    Lox(args.filepath)
 
 if __name__ == '__main__':
     main()

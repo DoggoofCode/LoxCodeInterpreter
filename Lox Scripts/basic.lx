@@ -1,0 +1,8 @@
+/* This is a basic script
+which tests the basic functionality
+of the Lox language */
+var a = 1;
+var b = 2;
+
+// Adds them up!
+var c = a + b;
